@@ -1,0 +1,2 @@
+#Pipe commands to Out-GridView to get a GUI displayed, filterable list
+Get-Help | Out-GridView
