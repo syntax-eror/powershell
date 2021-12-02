@@ -1,0 +1,2 @@
+(Get-Date) - (Get-CimInstance win32_OperatingSystem).LastBootUpTime
+#CIM cmdlets used to query OS parameters
