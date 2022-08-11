@@ -1,0 +1,6 @@
+$hostName = "InvalidHost"
+Test-Connection $hostName -Count 1 -ErrorAction SilentlyContinue -ErrorVariable ConnectionError
+If ($ConnectionError)
+{
+ Write-Host "Unable to ping" $hostName
+}
